@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.resume {
+    width: 50vw;
+    border: 2px solid darkgray;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 20px;
+    /* height: 200px; */
+    padding: 20px 30px;
+    background-color: lightgray;
+}
+.img-container {
+    margin: auto;
+    width: 18%;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.content {
+    margin: auto;
+    /* text-align: center; */
+}
+.content table {
+    margin: auto;
+}
+
+.content table td, .content table th {
+    padding: 11px;
+}
+.content table th {
+    text-align: right;
+}
+
+footer {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.buttons {
+    margin: auto;
+    text-align: center;
+}
+.buttons button {
+    padding: 5px 10px;
+}
+.buttons i {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 1.2rem;
+    }
+    .resume {
+        width: 70vw;
+    }
+    .img-container {
+        width: 28%;
+    }
+}
+
+@media (max-width: 800px) {
+    .resume {
+        width: 75vw;
+    }
+    .img-container {
+        width: 31%;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 1rem;
+    }
+    .resume {
+        width: 85vw;
+        margin-top: 2vh;
+        padding: 15px 5px;
+    }
+    .img-container {
+        width: 50%;
+    }
+      
+    table {
+        width: 100%;
+    }
+    .content table td, .content table th {
+        padding: 4px;
+    }
+
+    .content table th {
+        text-align: left;
+        width: 35%;
+        padding: 1px;
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .resume {
+        width: 95vw;
+        padding: 5px 0px;
+    }
+    .img-container {
+        width: 45%;
+    }
+    .content table td, .content table th {
+        padding: 1px;
+    }
+    .content table th {
+        width: 10%;
+    }
+}
